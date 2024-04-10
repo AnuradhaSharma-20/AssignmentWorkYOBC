@@ -10,6 +10,7 @@ public class CalculateBirthYear {
 
 
     public int calculatebirthyear(int age) {
+        //Checking commit
         int currentyear = Calendar.getInstance().get(Calendar.YEAR);
         int yr = currentyear - age;
         return yr;
